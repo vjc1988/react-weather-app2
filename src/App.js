@@ -43,6 +43,7 @@ export default function App() {
           <li>Wind: {weatherData.wind.speed}km/h</li>
           <li>
             <img
+              alt="weather-img"
               src={`https://openweathermap.org/img/wn/${weatherData.weather[0].icon}@2x.png`}
             />
           </li>
