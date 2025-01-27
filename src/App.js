@@ -23,6 +23,9 @@ export default function App() {
 
   return (
     <div className="App">
+      <a href="https://github.com/vjc1988/react-weather-app2">
+        My Github Respository
+      </a>
       <h1>Weather App</h1>
       <form onSubmit={handleSubmit}>
         <input
@@ -48,12 +51,7 @@ export default function App() {
             />
           </li>
         </ul>
-
-      <footer>
-        <a href="https://github.com/vjc1988/react-weather-app2" a />
-      </footer>
       )}
-    
     </div>
   );
 }
