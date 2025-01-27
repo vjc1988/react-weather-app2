@@ -49,6 +49,9 @@ export default function App() {
           </li>
         </ul>
       )}
+      <footer>
+        <a href="https://github.com/vjc1988/react-weather-app2" a />
+      </footer>
     </div>
   );
 }
